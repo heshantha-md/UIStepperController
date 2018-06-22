@@ -77,77 +77,77 @@ UIStepperController - "backgroundColor" atribute can use developer to change bac
 
     // func - backgroundColor(color: UIColor)
     // Ex:
-	     self.stepperController.backgroundColor(color: .darkGray)
+            self.stepperController.backgroundColor(color: .darkGray)
 
 
 UIStepperController - "borderColor" atribute can use developer to change border color of stepper controller
 
     // func - borderColor(color: UIColor)
     // Ex:
-	     self.stepperController.borderColor(color: .red)
+            self.stepperController.borderColor(color: .red)
             
 
 UIStepperController - "leftButtonBackgroundColor" atribute can use developer to change background color of stepper controller left button
 
     // func - leftButtonBackgroundColor(color: UIColor)
     // Ex:
-    	     self.stepperController.leftButtonBackgroundColor(color: .red)
+            self.stepperController.leftButtonBackgroundColor(color: .red)
     
 
 UIStepperController - "rightButtonBackgroundColor" atribute can use developer to change background color of stepper controller right button
 
     // func - rightButtonBackgroundColor(color: UIColor)
     // Ex:
-    	     self.stepperController.rightButtonBackgroundColor(color: .red)
+            self.stepperController.rightButtonBackgroundColor(color: .red)
 
 
 UIStepperController - "leftButtonForegroundColor" atribute can use developer to change text color of stepper controller left button
 
     // func - leftButtonForegroundColor(color: UIColor)
     // Ex:
-    	     self.stepperController.leftButtonForegroundColor(color: .red)
+            self.stepperController.leftButtonForegroundColor(color: .red)
     
 
 UIStepperController - "rightButtonForegroundColor" atribute can use developer to change text color of stepper controller right button
 
     // func - rightButtonForegroundColor(color: UIColor)
     // Ex:
-             self.stepperController.rightButtonForegroundColor(color: .red)
+            self.stepperController.rightButtonForegroundColor(color: .red)
     
 
 UIStepperController - "setImageToleftButton" atribute can use developer to set image icon on stepper controller left button
 
     // func - setImageToleftButton(image: UIImage?, contentMode: UIViewContentMode)
     // Ex:
-    	     self.stepperController.setImageToleftButton(image: UIImage(named: "ic_happy"), contentMode: .center)
+            self.stepperController.setImageToleftButton(image: UIImage(named: "ic_happy"), contentMode: .center)
     
 
 UIStepperController - "setImageToRightButton" atribute can use developer to set image icon on stepper controller right button
 
     // func - setImageToRightButton(image: UIImage?, contentMode: UIViewContentMode)
     // Ex:
-    	     self.stepperController.setImageToRightButton(image: UIImage(named: "ic_unhappy"), contentMode: .center)
+            self.stepperController.setImageToRightButton(image: UIImage(named: "ic_unhappy"), contentMode: .center)
 
 
 UIStepperController - "incrementBy" atribute can use developer to change increment weight of stepper controller
 
     // func - incrementBy(number: CGFloat)
     // Ex:
-	     self.stepperController.incrementBy(number: 20.5)
+            self.stepperController.incrementBy(number: 20.5)
             
 
 UIStepperController - "isMinus" atribute can use developer to change stepper controller to accept minus numbers
 
     // var - isMinus: Bool = false
     // Ex:
-             self.stepperController.isMinus = true
+            self.stepperController.isMinus = true
 
 
 UIStepperController - "isFloat" atribute can use developer to change stepper controller to accept floating numbers
 
     // var - isFloat: Bool = false
     // Ex:
-             self.stepperController.isFloat = true
+            self.stepperController.isFloat = true
 
 
 UIStepperController - "count" atribute can use developer to set and get stepper controller count
