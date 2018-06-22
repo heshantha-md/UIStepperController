@@ -8,6 +8,7 @@ UIStepperController is a custom class that written to  draw / design an awsome S
 <p align="center">
   <img src="https://github.com/NadeeshanEngineering/UIStepperController/blob/master/example_preview_body.png">
 </p>
+<br />
 
 To use UIStepperController in your project, please follow following steps
 
