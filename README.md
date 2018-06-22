@@ -14,7 +14,7 @@ To use UIStepperController in your project, please follow following steps
        Ex:
        
           // Add UIStepperControllerDelegate to ViewController
-	      class ViewController: UIViewController, UIStepperControllerDelegate
+	    class ViewController: UIViewController, UIStepperControllerDelegate
 
 3. Declare and initialize an UIStepperController instance (Note: Either you can implement UIStepperController as IBOutlet or Subview of your ViewController)
 
@@ -81,6 +81,48 @@ UIStepperController - "borderColor" atribute can use developer to change border 
     // func - borderColor(color: UIColor)
     // Ex:
 		    self.stepperController.borderColor(color: .red)
+            
+
+UIStepperController - "leftButtonBackgroundColor" atribute can use developer to change background color of stepper controller left button
+
+    // func - leftButtonBackgroundColor(color: UIColor)
+    // Ex:
+    self.stepperController.leftButtonBackgroundColor(color: .red)
+    
+
+UIStepperController - "rightButtonBackgroundColor" atribute can use developer to change background color of stepper controller right button
+
+    // func - rightButtonBackgroundColor(color: UIColor)
+    // Ex:
+    self.stepperController.rightButtonBackgroundColor(color: .red)
+
+
+UIStepperController - "leftButtonForegroundColor" atribute can use developer to change text color of stepper controller left button
+
+    // func - leftButtonForegroundColor(color: UIColor)
+    // Ex:
+    self.stepperController.leftButtonForegroundColor(color: .red)
+    
+
+UIStepperController - "rightButtonForegroundColor" atribute can use developer to change text color of stepper controller right button
+
+    // func - rightButtonForegroundColor(color: UIColor)
+    // Ex:
+    self.stepperController.rightButtonForegroundColor(color: .red)
+    
+
+UIStepperController - "setImageToleftButton" atribute can use developer to set image icon on stepper controller left button
+
+    // func - setImageToleftButton(image: UIImage?, contentMode: UIViewContentMode)
+    // Ex:
+    self.stepperController.setImageToleftButton(image: UIImage(named: "ic_happy"), contentMode: .center)
+    
+
+UIStepperController - "setImageToRightButton" atribute can use developer to set image icon on stepper controller right button
+
+    // func - setImageToRightButton(image: UIImage?, contentMode: UIViewContentMode)
+    // Ex:
+    self.stepperController.setImageToRightButton(image: UIImage(named: "ic_unhappy"), contentMode: .center)
 
 
 UIStepperController - "incrementBy" atribute can use developer to change increment weight of stepper controller
