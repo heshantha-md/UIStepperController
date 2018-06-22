@@ -17,7 +17,7 @@ To use UIStepperController in your project, please follow following steps
        Ex:
        
           // Add UIStepperControllerDelegate to ViewController
-	    class ViewController: UIViewController, UIStepperControllerDelegate
+	      class ViewController: UIViewController, UIStepperControllerDelegate
 
 3. Declare and initialize an UIStepperController instance (Note: Either you can implement UIStepperController as IBOutlet or Subview of your ViewController)
 
