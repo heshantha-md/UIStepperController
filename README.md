@@ -1,6 +1,6 @@
 # UIStepperController
 
-UIStepperController is a custom class that written to  draw / design an awsome Stepper Controller with easy approche. further more it capable of holding either numeric or floating numbers, and developer can customize the stepper controller with attributes such as size, border color, background color, font color. Class is based on Swift language and require UIKit framework for function the functionalities.
+UIStepperController is a custom class that written to  draw / design an awsome Stepper Controller with easy approche. further more it capable of holding either numeric or floating numbers, and developer can customize the stepper controller with attributes such as size, border color, background color, font color etc. Class is based on Swift language and require UIKit framework for function the functionalities.
 
 <p align="center">
   <img src="https://github.com/NadeeshanEngineering/UIStepperController/blob/master/head_banner.png">
