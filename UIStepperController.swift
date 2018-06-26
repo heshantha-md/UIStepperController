@@ -3,6 +3,7 @@
 //
 //  Created by Nadeeshan Jayawardana on 6/21/18.
 //  Copyright © 2018 NEngineering. All rights reserved.
+//  Source: https://github.com/NadeeshanEngineering/UIStepperController
 //
 
 import UIKit
